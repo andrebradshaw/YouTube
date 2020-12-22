@@ -3,8 +3,9 @@
       
           Run in the console within your target video.
           For best results, refresh video before running the script.
-          Known Issue: This will not download more than the first 1400 or so comments. I know why, but have not yet found a solution.
-          
+          Known Issues: 
+               This will not download more than the first 1400 or so comments. I know why, but have not yet found a solution.
+               Does not yet pull replies in comments.
       **********************************************************************************************************************************
 */
 async function getCommentsOnVideo(){
